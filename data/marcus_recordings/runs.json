@@ -1,0 +1,335 @@
+[
+ {
+  "run": "C_S01",
+  "collector": "Claude (Cowork)",
+  "model": "claude-fable-5-1",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "C_S02",
+  "collector": "Claude (Cowork)",
+  "model": "claude-fable-5-1",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "C_S03",
+  "collector": "Claude (Cowork)",
+  "model": "claude-fable-5-1",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "C_S04",
+  "collector": "Claude (Cowork)",
+  "model": "claude-fable-5-1",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "C_S05",
+  "collector": "Claude (Cowork)",
+  "model": "claude-fable-5-1",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "C_S06",
+  "collector": "Claude (Cowork)",
+  "model": "claude-fable-5-1",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "C_S07",
+  "collector": "Claude (Cowork)",
+  "model": "claude-fable-5-1",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "C_S08",
+  "collector": "Claude (Cowork)",
+  "model": "claude-fable-5-1",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "C_S09",
+  "collector": "Claude (Cowork)",
+  "model": "claude-fable-5-1",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "C_S10",
+  "collector": "Claude (Cowork)",
+  "model": "claude-fable-5-1",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "C_L01",
+  "collector": "Claude (Cowork)",
+  "model": "claude-fable-5-1",
+  "steps_per_press": 1,
+  "presses": 500,
+  "steps": 500,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_S01",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3-flash",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_S02",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3-flash",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_S03",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3-flash",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_S04",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3-flash",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_S05",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3-flash",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_S06",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3-flash",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_S07",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3-flash",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_S08",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3-flash",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_S09",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3-flash",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_S10",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3-flash",
+  "steps_per_press": 1,
+  "presses": 36,
+  "steps": 36,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_L01",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3-flash",
+  "steps_per_press": 1,
+  "presses": 500,
+  "steps": 500,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "G_M01",
+  "collector": "HyperAgent",
+  "model": "GPT-6 Astra foreman",
+  "steps_per_press": 1,
+  "presses": 3000,
+  "steps": 3000,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "G_M02",
+  "collector": "HyperAgent",
+  "model": "GPT-6 Astra foreman",
+  "steps_per_press": 1,
+  "presses": 3000,
+  "steps": 3000,
+  "unreadable_cells": 239
+ },
+ {
+  "run": "G_M03",
+  "collector": "HyperAgent",
+  "model": "GPT-6 Astra foreman",
+  "steps_per_press": 1,
+  "presses": 3000,
+  "steps": 3000,
+  "unreadable_cells": 17
+ },
+ {
+  "run": "G_M04",
+  "collector": "HyperAgent",
+  "model": "GPT-6 Astra foreman",
+  "steps_per_press": 1,
+  "presses": 3000,
+  "steps": 3000,
+  "unreadable_cells": 34
+ },
+ {
+  "run": "G_M05",
+  "collector": "HyperAgent",
+  "model": "GPT-6 Astra foreman",
+  "steps_per_press": 1,
+  "presses": 3000,
+  "steps": 3000,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "G_N01",
+  "collector": "HyperAgent",
+  "model": "GPT-6 Astra foreman",
+  "steps_per_press": 10,
+  "presses": 300,
+  "steps": 3000,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "G_N02",
+  "collector": "HyperAgent",
+  "model": "GPT-6 Astra foreman",
+  "steps_per_press": 10,
+  "presses": 300,
+  "steps": 3000,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "G_N03",
+  "collector": "HyperAgent",
+  "model": "GPT-6 Astra foreman",
+  "steps_per_press": 10,
+  "presses": 300,
+  "steps": 3000,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "G_N04",
+  "collector": "HyperAgent",
+  "model": "GPT-6 Astra foreman",
+  "steps_per_press": 10,
+  "presses": 300,
+  "steps": 3000,
+  "unreadable_cells": 38
+ },
+ {
+  "run": "G_N05",
+  "collector": "HyperAgent",
+  "model": "GPT-6 Astra foreman",
+  "steps_per_press": 10,
+  "presses": 300,
+  "steps": 3000,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_K01",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3",
+  "steps_per_press": 1,
+  "presses": 1000,
+  "steps": 1000,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_K02",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3",
+  "steps_per_press": 1,
+  "presses": 1000,
+  "steps": 1000,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_K03",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3",
+  "steps_per_press": 1,
+  "presses": 1000,
+  "steps": 1000,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_K04",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3",
+  "steps_per_press": 1,
+  "presses": 1000,
+  "steps": 1000,
+  "unreadable_cells": 0
+ },
+ {
+  "run": "H_K05",
+  "collector": "Hermes agent",
+  "model": "z-ai/glm-5.3",
+  "steps_per_press": 1,
+  "presses": 1000,
+  "steps": 1000,
+  "unreadable_cells": 0
+ }
+]
