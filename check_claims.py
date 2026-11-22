@@ -138,6 +138,17 @@ CHECKS = [
     ("C48", "values 10-13 occur only in Region 3, within a factor of 2 of the table's rate",
      lambda: g("C48")["by_dataset"] and all(v["outside_region3"] == 0 for v in g("C48")["by_dataset"].values())
      and 0.5 <= g("C48")["observed"] / g("C48")["predicted"] <= 2),
+    ("C49", "whole-grid value shares deduced from the rules are within 1% of the measured shares (D and H)",
+     lambda: g("C49")["D"]["maxerr"] < 0.01 and g("C49")["H"]["maxerr"] < 0.01),
+    ("C50", "Region 3 neighbour pairs differ at the deduced rate 1 - sum p^2 (within 0.02); Regions 1, 2 and 4 fall below their start",
+     lambda: abs(g("C50")["end"]["3"] - g("C50")["r3_pred"]) < 0.02
+     and all(g("C50")["end"][a] < g("C50")["start"][a] - 0.2 for a in ("1", "2", "4"))),
+    ("C51", "Region 4 matching pairs never fall in steps where only Region 4 and no outside neighbour changed",
+     lambda: g("C51")["fell"] == 0 and g("C51")["rose"] == g("C51")["steps"] > 1000),
+    ("C52", "predicting 'nothing changes' is right for more than 99% of cells per step",
+     lambda: g("C52")["D"] > 0.99 and g("C52")["H"] > 0.99),
+    ("C53", "Region 1 reads the grid before Regions 2-4 move in every case that can tell; no case tells Regions 2 and 3 apart",
+     lambda: g("C53")["r1"]["cases"] > 0 and g("C53")["r1"]["before"] == g("C53")["r1"]["cases"] and g("C53")["r2"]["cases"] == 0),
 ]
 
 lines = [f"{'claim':6s} {'result':6s} {'source':22s} condition"]

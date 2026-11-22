@@ -48,5 +48,10 @@ C45    PASS   12_fresh_runs          every rule holds on the fresh runs (Region 
 C46    PASS   12_fresh_runs          a 10-step press changes at most 10 cells per region and keeps Region 4's counts
 C47    PASS   12_fresh_runs          fresh runs: block D comparison recorded for every fresh run
 C48    PASS   12_fresh_runs          values 10-13 occur only in Region 3, within a factor of 2 of the table's rate
+C49    PASS   13_grid_measures       whole-grid value shares deduced from the rules are within 1% of the measured shares (D and H)
+C50    PASS   13_grid_measures       Region 3 neighbour pairs differ at the deduced rate 1 - sum p^2 (within 0.02); Regions 1, 2 and 4 fall below their start
+C51    PASS   13_grid_measures       Region 4 matching pairs never fall in steps where only Region 4 and no outside neighbour changed
+C52    PASS   13_grid_measures       predicting 'nothing changes' is right for more than 99% of cells per step
+C53    PASS   13_grid_measures       Region 1 reads the grid before Regions 2-4 move in every case that can tell; no case tells Regions 2 and 3 apart
 
-49/49 claims pass.
+54/54 claims pass.

@@ -19,13 +19,13 @@ The Black Box is a 20×20 grid that changes every step. This repository finds th
 | 1 (top-left) | Values move 0→1→2→3→4 or 9→8→7→6→5, or jump to the other branch's start when the cell's logic gate (a fixed rule over a few specific cells) points to the other half. | Solved |
 | 2 (top-right) | 0 never changes. Rows 1-10 × columns 16-20 keep the smaller of the cell and a random cell of rows 11-20; rows 6-10 × columns 6-15 multiply by a random cell of that part and keep the last digit. | Solved |
 
-Each step the areas update in order 1, 2, 3, 4: Areas 1-3 pick one random cell and Area 4 picks two. The Area 1, 2 and 4 rules come from Marcus Washington's simulator and are tested on every held-out change (C35-C41).
+Each step the areas update one after another (Area 1 first, Area 4 after Areas 2 and 3; C40, C53): Areas 1-3 pick one random cell and Area 4 picks two. The Area 1, 2 and 4 rules come from Marcus Washington's simulator and are tested on every held-out change (C35-C41).
 
 ## How everything is proven
 
-- Every finding has an ID (C01-C48). Search for the ID in `analysis/` to find the code, and in `results/` to find the printed output.
+- Every finding has an ID (C01-C53). Search for the ID in `analysis/` to find the code, and in `results/` to find the printed output.
 - Rules were found on one dataset (61 runs) and tested on a separate held-out dataset (30 runs).
-- `check_claims.py` re-tests all 49 claims automatically. Current status: **49/49 pass** ([results/claims_check.txt](results/claims_check.txt)).
+- `check_claims.py` re-tests all 54 claims automatically. Current status: **54/54 pass** ([results/claims_check.txt](results/claims_check.txt)).
 
 ## Run it
 
@@ -55,6 +55,7 @@ The held-out shared dataset is included. Group 1's discovery runs (and Group 2's
 | `notebooks/rule_tests_three_datasets.ipynb` | The same tests as a readable notebook, with tables and figures, run on all three datasets |
 | `collect/recorder.js` | Records runs of the page from inside the browser (Reset, then Next n Step), with step-counter checks |
 | `analysis/12_fresh_runs.py` | Every rule on Group 5's fresh recordings, 10-step presses, block D retested, values 10-13 (C45-C48) |
+| `analysis/13_grid_measures.py` | Whole-grid value shares deduced from the rules, neighbour pairs, Region 4's matching-pair count, the 'nothing changes' baseline, and what the data say about the update order (C49-C53) |
 | `MODEL_SPECIFICATION.md` | The stand-alone model + methods and conclusions |
 | `blackbox/` | Shared code: data loaders, area map, event extraction, simulator, `spec_model.py` (the earlier written model) and `gate_model.py` (the current model, Part A of the specification) |
 | `check_claims.py` | Automatic PASS/FAIL test of every claim |
@@ -67,4 +68,4 @@ To be completed: the exact contribution of each Group 5 member will be filled in
 
 ## Credits
 
-Data comes from other SSIE 501 groups: Group 1 (61 runs), W. Zhang (shared 30-run dataset) and Group 2 (41 frames). Area 1 gates, Area 2 parts and the strict Area 4 rule: Marcus Washington. Analysis and report: Group 5.
+Data comes from other SSIE 501 groups: Group 1 (61 runs), W. Zhang (shared 30-run dataset) and Group 2 (41 frames), plus Group 5's own recordings: Marcus Washington's (`data/marcus_recordings/`) and Shamim Sharbaf's (`data/group5_runs/`). Area 1 gates, Area 2 parts and the strict Area 4 rule: Marcus Washington. Analysis and report: Group 5.
